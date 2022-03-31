@@ -41,7 +41,7 @@ mvn package
 It produces the `quarkus-testing-junit-mockito-1.0.0-SNAPSHOT.jar` file in the `target/quarkus-app/` directory.
 Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
 
-If you want to build an _über-jar_, execute the following command:
+#If you want to build an _über-jar_, execute the following command:
 ```shell script
 mvn package -Dquarkus.package.type=uber-jar
 ```
